@@ -9,7 +9,7 @@ const HeroSection = () => {
         <h1 className="text-4xl sm:text--6xl lg:text-7xl text-center tracking-wide">
             Maximiza tus ingresos y 
             <span className="bg-gradient-to-r from-lime-500 to-lime-800 text-transparent bg-clip-text">
-                {" "} flexibilidad con KomoSudo
+                {" "} flexibilidad con 
             </span>
         </h1>
         <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
