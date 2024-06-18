@@ -8,12 +8,12 @@ import Footer from "./components/Footer"
 import HeroSection from "./components/HeroSection"
 import Navbar from "./components/Navbar"
 /* import ParaUsuarios from "./components/ParaUsuarios" */
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 
 const App = () => {
 
-  const trackingId = "446640158";
+  const trackingId = "G-JXQF6061ER";
 
   useEffect(() => {
     ReactGA.initialize(trackingId);

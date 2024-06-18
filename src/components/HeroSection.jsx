@@ -16,7 +16,7 @@ const HeroSection = () => {
             Conecta profesionales del deporte con deportistas que buscan sesiones puntuales!
         </p>
         <div className="flex justify-center my-10">
-            <a href="#" className="bg-gradient-to-r from-lime-500 to-lime-800 py-3 px-4 mx-3 rounded-md" onClick={() => trackButtonClick('CTA button', 'Click')}>
+            <a href="#" className="bg-gradient-to-r from-lime-500 to-lime-800 py-3 px-4 mx-3 rounded-md" onClick={() => trackButtonClick('User', 'Click')}>
             Descubre más
             </a>
         </div>

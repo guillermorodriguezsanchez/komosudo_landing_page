@@ -3,6 +3,7 @@ import { navItems } from "../constants"
 import {Menu, X} from "lucide-react"
 import { useState } from "react"
 import Toggle from '../components/ThemeToggle'
+import { trackButtonClick } from "../utils/analytics"
 
 const Navbar = () => {
     const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
@@ -29,7 +30,7 @@ const Navbar = () => {
                     ))}
                 </ul>
                 <div className="hidden lg:flex justify-center space-x-12 items-center ">
-                    <a href="#" className="py-2 px-3 border rounded-md border-black dark:bg-lime-400 dark:text-black ">
+                    <a href="#" className="py-2 px-3 border rounded-md border-black dark:bg-lime-400 dark:text-black " onClick={() => trackButtonClick('User', 'Click')}>
                     Únete ahora
                     </a>
                 </div>
