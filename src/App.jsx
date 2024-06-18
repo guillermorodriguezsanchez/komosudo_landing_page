@@ -17,7 +17,7 @@ const App = () => {
 
   useEffect(() => {
     ReactGA.initialize(trackingId);
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
   }, []);
 
   
