@@ -13,7 +13,7 @@ import ReactGA from 'react-ga';
 
 const App = () => {
 
-  const trackingId = "446640158";
+  const trackingId = "G-JXQF6061ER";
 
   useEffect(() => {
     ReactGA.initialize(trackingId);
